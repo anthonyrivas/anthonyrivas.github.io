@@ -6,24 +6,50 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Anthony Rivas</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" crossorigin="anonymous">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-	<header>
-		<div class="logo"></div>
-		<nav class="navBar">
-			<a class="navLink">About</a>
-			<a class="navLink">Portfolio</a>
-			<a class="navLink">Home</a>
-		</nav>
-	</header>
+	<div class="off-canvas-wrapper">
+		<div id="off-canvas" class="off-canvas position-left" data-off-canvas>My Off-Canvas</div>
+		<div class="off-canvas-content" data-off-canvas-content>
+			<header class="grid-x">
+				<div class="content cell small-10 small-offset-1 grid-x">
+					<div class="logo-container cell large-4">
+						<img src="assets/images/diamond.svg" alt="Logo" class="logo float-left" />
+						<div class="logo-text">Anthony Rivas</div>
+						<div class="subtitle float-left">DESIGNER | DEVELOPER</div>
+					</div>
+					<nav class="navBar cell large-8 grid-x grid-margin-1">
+						<a class="navLink cell auto" href="#">Overview</a>
+						<a class="navLink cell auto" href="#">Portfolio</a>
+						<a class="navLink cell auto" href="#">About</a>
+					</nav>
+				</div>
+			</header>
+			<main>
 
-	<body>
-
-	</body>
-	<footer>
-
-	</footer>
+			</main>
+			<footer class="grid-x">
+				<div class="content cell small-10 small-offset-1 grid-x">
+					<div class="copyright cell small-2">
+						&copy; Anthony Rivas 2018
+					</div>
+					<div class="social-links cell small-10 clearfix">
+						<a href="#" class="button social linkedin float-right">
+							<i class="fab fa-linkedin" aria-hidden="true"></i> Linkedin
+						</a>
+						<a href="#" class="button social github float-right">
+							<i class="fab fa-github" aria-hidden="true"></i> Github
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
