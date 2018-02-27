@@ -50,6 +50,9 @@ header{
 	position: absolute;
 	bottom: 0;
 }
+ul{
+	list-style-type: none;
+}
 /* Footer Styling */
 footer{
 	margin-top: 2rem;
@@ -84,6 +87,10 @@ main {
 	margin-bottom: 0;
 	border-top-left-radius: .5rem;
 	border-top-right-radius: .5rem;
+	}
+
+	.social:first-child{
+		margin-right: 0;
 	}
   
   .social.linkedin {
