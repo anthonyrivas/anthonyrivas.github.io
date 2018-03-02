@@ -56,6 +56,12 @@ ul{
 .employer-date{
 	text-align: right;
 }
+.self-image{
+	border-radius: 50%;
+}
+h5, h6{
+	font-weight: bold;
+}
 /* Footer Styling */
 footer{
 	margin-top: 2rem;
