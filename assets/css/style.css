@@ -17,7 +17,7 @@ header{
 }
 		/* Nav bar styling */
 .navLink{
-	background-color: rgba(0, 194, 215, 1);
+	background-color: #40798C;
 	text-align: center;
 	padding: .5rem;
 	font-weight: bold;
@@ -27,7 +27,7 @@ header{
 }
 .navLink:hover{
 	color: rgba(255,255,255,1);
-	background-color: rgb(0, 156, 173);
+	background-color: #1f363d;
 }
 .navLink:last-child{
 	border-right: 0px solid rgba(255,255,255,1);
@@ -52,6 +52,9 @@ header{
 }
 ul{
 	list-style-type: none;
+}
+.employer-date{
+	text-align: right;
 }
 /* Footer Styling */
 footer{
