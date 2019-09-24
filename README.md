@@ -1,1 +1,0 @@
-# anthonyrivas.github.io
